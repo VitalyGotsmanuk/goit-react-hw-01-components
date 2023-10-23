@@ -1,4 +1,4 @@
-//import user from '../data/user.json';
+
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (

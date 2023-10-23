@@ -1,4 +1,3 @@
-
 export const Statistics = ({ title, stats }) => {
     return (    
     <section className="statistics">

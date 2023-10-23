@@ -4,12 +4,15 @@ import data from '../data/data.json';
 import { Statistics } from './Statistics';
 import friends from '../data/friends.json';
 import { FriendList } from './FriendList';
+import transactions from '../data/transactions.json';
+import { TransactionHistory } from './TransactionHistory';
 
+import '../index.css';
 
 export const App = () => {
   return (
     <section>
-    <h1>Hi ALL!!!</h1>
+    <h1>1-st HW!</h1>
     
     <Profile
       username={user.username}
@@ -25,9 +28,8 @@ export const App = () => {
     
     <FriendList friends={friends} /> 
     
-    
-         
-      
+    <TransactionHistory items={transactions} />
+             
     </section> 
   );
 };
