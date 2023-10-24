@@ -12,7 +12,7 @@ import '../index.css';
 export const App = () => {
   return (
     <section>
-    <h1>1-st HW!</h1>
+    {/* <h1>1-st HW!</h1> */}
     
     <Profile
       username={user.username}
