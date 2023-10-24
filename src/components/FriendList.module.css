@@ -1,28 +1,29 @@
 .friendList{
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 320px;
     border: solid 1px;
     border-radius: 5px;
+
+    gap: 10px;
     
     margin: 0 auto;
     margin-bottom: 20px;
     
     padding: 10px;
       
-    
 }
 
 .item{
     display: flex;
-    max-width: 100%;
+    width: 90%;
     border: solid 1px;
     border-radius: 5px;
     align-items: center;
     gap: 20px;
     
     margin: 0 auto;
-    margin-bottom: 20px;
-    
+  
     padding: 10px;
 
     box-shadow: 1px 1px 1px black;
@@ -36,7 +37,6 @@
     font-size: large;
     font-weight: 700;
 }
-
 
 .online {
     width: 20px;
