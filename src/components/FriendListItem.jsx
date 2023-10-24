@@ -1,3 +1,5 @@
+
+
 export const FriendListItem = ({ friend }) => {
     const { avatar, name, isOnline, id } = friend;
     return (
