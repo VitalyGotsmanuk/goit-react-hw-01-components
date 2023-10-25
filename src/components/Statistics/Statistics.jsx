@@ -7,7 +7,7 @@ export const Statistics = ({ title, stats }) => {
 
         <ul className={css.statList}>
           {stats.map (stats => (  
-        <li className={css.item} id={stats.id}>
+        <li className={css.item} key={stats.id}>
             <span className={css.label}>{stats.label}</span>
                   <span className={css.percentage}>{stats.percentage}</span>
         </li>
