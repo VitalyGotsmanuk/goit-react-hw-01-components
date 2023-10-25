@@ -1,9 +1,9 @@
 import css from './FriendList.module.css';
 
-export const FriendListItem = ({ avatar, name, isOnline, key }) => {
+export const FriendListItem = ({ avatar, name, isOnline, key, id }) => {
     
     return (
-        <li className={css.item} key={key} id={key}>
+        <li className={css.item} key={key} id={id}>
             <span className={
                 isOnline ? `${css.online}` : `${css.offline}`
             }></span>
